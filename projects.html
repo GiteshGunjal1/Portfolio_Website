@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects | Gitesh Gunjal</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { darkMode: 'class' };
+  </script>
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      background-color: #000;
+      color: white;
+    }
+
+    .card-hover {
+      transition: all 0.4s ease-in-out;
+      transform-origin: center center;
+    }
+
+    .card-hover:hover {
+      transform: scale(1.08);
+      z-index: 10;
+      box-shadow: 0 0 25px rgba(168, 85, 247, 0.5); /* Purple glow */
+    }
+
+    .image-hover-zoom {
+      transition: transform 0.4s ease;
+    }
+
+    .group:hover .image-hover-zoom {
+      transform: scale(1.02);
+    }
+
+    .btn-hover {
+      transition: all 0.3s ease;
+    }
+
+    .btn-hover:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #a855f7;
+    }
+    </style>
+</head>
+
+<body class="text-white">
+
+
+  
+ <!-- 🔙 Fixed Back Button -->
+<div class="fixed top-4 left-6 z-50">
+  <a href="index.html" class="text-purple-400 hover:text-purple-200 text-lg flex items-center gap-2 bg-[#1a1a1a] px-3 py-2 rounded-full shadow-md backdrop-blur-sm" data-aos="fade-right">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+    </svg>
+    Back to Home
+  </a>
+</div>
+
+
+  
+
+  <!-- Power BI Section -->
+  <section class="px-6 md:px-20 py-12">
+    <div class="flex items-center justify-center gap-2 mb-10" data-aos="fade-down">
+      <img src="assets/icons/power_bi.png" alt="Power BI" class="w-20 h-25">
+      <h2 class="text-4xl font-bold text-purple-400" data-aos="fade-down">Power BI Projects</h2>
+    </div>
+
+    
+    <div class="flex flex-wrap justify-center gap-6">
+
+    <!-- Project Card 1 -->
+    <div class="bg-[#1a1a1a] text-white rounded-xl card-hover group w-72" data-aos="zoom-in" data-aos-delay="200">
+      <img src="assets/BMW-Sales.png" alt="BMW Dashboard"
+           class="rounded-t-xl w-full h-34 object-cover border-b-4 border-purple-500 image-hover-zoom">
+      <div class="p-4 flex flex-col justify-between h-[270px]">
+        <div>
+          <h3 class="text-lg font-semibold mb-1">BMW Sales Dashboard</h3>
+          <p class="text-sm text-gray-300 mb-3">Visualize BMW sales using dynamic Power BI reports and filters.</p>
+          <div class="flex flex-wrap gap-2 mb-3">
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Power BI</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#DAX</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Data Modeling</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Excel</span>
+          </div>
+        </div>
+        <div class="flex gap-3">
+          <a href="https://www.linkedin.com/posts/giteshgunjal_powerbi-dataanalytics-bmw-activity-7349713103279775744-OuHy?utm_source=share&utm_medium=member_desktop&rcm=ACoAADbMJg4BIGje64Qmen7iCdyI1h1Q9paHixo" target="_blank" class="btn-hover flex items-center gap-1 bg-purple-600 hover:bg-purple-700 text-white px-4 py-1 rounded-full text-sm">
+        <i class="fas fa-eye"></i> <img src= "https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" alt="Linkdin" class="w-7 h-7"> LinkedIn
+      </a>
+          <a href="https://github.com/GiteshGunjal1/BMW_Sales_Analysis-Power-Bi" target="_blank" class="btn-hover flex items-center gap-1 border border-purple-600 hover:bg-purple-700 hover:text-white text-purple-400 px-4 py-1 rounded-full text-sm">
+            <i class="fas fa-code"></i> 🔗 Code
+          </a>
+        </div>
+      </div>
+    </div>
+
+      <!-- Project Card 2 -->
+      <div class="bg-[#1a1a1a] text-white rounded-xl card-hover group w-72" data-aos="zoom-in" data-aos-delay="300">
+  <img src="assets/property-management.png" alt="Property Analysis"
+       class="rounded-t-xl w-full h-34 object-cover border-b-4 border-purple-500 image-hover-zoom">
+  <div class="p-4 flex flex-col justify-between h-[270px]">
+    <div>
+      <h3 class="text-lg font-semibold mb-1">Property Management</h3>
+      <p class="text-sm text-gray-300 mb-3">Analyze property revenue, expenses, and occupancy trends with visuals.</p>
+      <div class="flex flex-wrap gap-2 mb-3">
+        <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Power BI</span>
+        <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#DAX</span>
+        <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Excel</span>
+      </div>
+    </div>
+    <div class="flex gap-3">
+      <a href="https://www.linkedin.com/posts/giteshgunjal_powerbi-propertymanagement-realestateanalytics-activity-7350408731337064448-2z9q?utm_source=share&utm_medium=member_desktop&rcm=ACoAADbMJg4BIGje64Qmen7iCdyI1h1Q9paHixo" target="_blank" class="btn-hover flex items-center gap-1 bg-purple-600 hover:bg-purple-700 text-white px-4 py-1 rounded-full text-sm">
+        <i class="fas fa-eye"></i> <img src= "https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" alt="Linkdin" class="w-7 h-7"> LinkedIn
+      </a>
+      <a href="https://github.com/GiteshGunjal1/Property_Management_Analysis-Power-Bi" target="_blank" class="btn-hover flex items-center gap-1 border border-purple-600 hover:bg-purple-700 hover:text-white text-purple-400 px-4 py-1 rounded-full text-sm">
+        <i class="fas fa-code"></i> 🔗 Code
+      </a>
+    </div>
+  </div>
+</div>
+
+
+      <!-- Project Card 3 -->
+<div class="bg-[#1a1a1a] text-white rounded-xl card-hover group w-72" data-aos="zoom-in" data-aos-delay="400">
+  <img src="assets/ODi.png" alt="ODI Result Analysis"
+       class="rounded-t-xl w-full h-34 object-cover border-b-4 border-purple-500 image-hover-zoom">
+  <div class="p-4 flex flex-col justify-between h-[270px]">
+    <div>
+      <h3 class="text-lg font-semibold mb-1">ODI Result Analysis</h3>
+      <p class="text-sm text-gray-300 mb-3">Cricket ODI performance breakdown with slicers and interactive visuals.</p>
+      <div class="flex flex-wrap gap-2 mb-3">
+        <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Power BI</span>
+        <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#DAX</span>
+        <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Cricket Stats</span>
+      </div>
+    </div>
+    <div class="flex gap-3">
+      <a href="https://www.linkedin.com/posts/giteshgunjal_powerbi-dataanalytics-cricketanalysis-activity-7329788127596752896-5Ke8?utm_source=share&utm_medium=member_desktop&rcm=ACoAADbMJg4BIGje64Qmen7iCdyI1h1Q9paHixo" target="_blank" class="btn-hover flex items-center gap-1 bg-purple-600 hover:bg-purple-700 text-white px-4 py-1 rounded-full text-sm">
+        <i class="fas fa-eye"></i> <img src= "https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" alt="Linkdin" class="w-7 h-7"> LinkedIn
+      </a>
+      <a href="https://github.com/GiteshGunjal1/ODI_Analysis-Power-BI/tree/main" target="_blank" class="btn-hover flex items-center gap-1 border border-purple-600 hover:bg-purple-700 hover:text-white text-purple-400 px-4 py-1 rounded-full text-sm">
+        <i class="fas fa-code"></i> 🔗 Code
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<!-- Project Card 4 -->
+<div class="bg-[#1a1a1a] text-white rounded-xl card-hover group w-72" data-aos="zoom-in" data-aos-delay="500">
+  <img src="assets/Nike.png" alt="Air Jordan Sales Insight"
+       class="rounded-t-xl w-full h-34 object-cover border-b-4 border-purple-500 image-hover-zoom">
+  <div class="p-4 flex flex-col justify-between h-[270px]">
+    <div>
+      <h3 class="text-lg font-semibold mb-1">Air Jordan Sales Insight</h3>
+      <p class="text-sm text-gray-300 mb-3">Analyze sales, profit trends, and regional performance for Nike models.</p>
+      <div class="flex flex-wrap gap-2 mb-3">
+        <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Power BI</span>
+        <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#DAX</span>
+        <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Sales</span>
+        <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Dashboard</span>
+      </div>
+    </div>
+    <div class="flex gap-3">
+      <a href="https://www.linkedin.com/posts/giteshgunjal_powerbi-dataanalytics-datavisualization-activity-7330100862591094785-P3dD?utm_source=share&utm_medium=member_desktop&rcm=ACoAADbMJg4BIGje64Qmen7iCdyI1h1Q9paHixo" target="_blank" class="btn-hover flex items-center gap-1 bg-purple-600 hover:bg-purple-700 text-white px-4 py-1 rounded-full text-sm">
+        <i class="fas fa-eye"></i> <img src= "https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" alt="Linkdin" class="w-7 h-7"> LinkedIn
+      </a>
+      <a href="https://github.com/GiteshGunjal1/Nike_Dashboard-Power-BI" target="_blank" class="btn-hover flex items-center gap-1 border border-purple-600 hover:bg-purple-700 hover:text-white text-purple-400 px-4 py-1 rounded-full text-sm">
+        <i class="fas fa-code"></i> 🔗 Code
+      </a>
+    </div>
+  </div>
+</div>
+
+  
+
+  </section>
+
+  <!-- Excel Section -->
+   <!-- Excel_Img = https://img.icons8.com/?size=100&id=117561&format=png&color=000000 -->
+  <section class="px-6 md:px-20 py-16">
+    <div class="flex items-center justify-center gap-4 mb-10" data-aos="fade-down">
+    <img src="https://img.icons8.com/?size=100&id=117561&format=png&color=000000" alt="Excel" class="w-25 h-14">
+    <h2 class="text-4xl font-bold text-purple-400" data-aos="fade-down">Excel Projects</h2>
+    </div>
+
+    <div class="flex flex-wrap justify-center gap-6">
+    
+    <!-- 📝 Add Excel Project Cards here -->
+     <!-- Excel Project Card 1 -->
+    <div class="bg-[#1a1a1a] text-white rounded-xl card-hover group w-72" data-aos="zoom-in" data-aos-delay="200">
+      <img src="assets/Sales_Tracker.png" alt="Excel Sales Dashboard"
+          class="rounded-t-xl w-full h-[160px] object-cover border-b-4 border-purple-500 image-hover-zoom">
+      <div class="p-4 flex flex-col justify-between h-[270px]">
+        <div>
+          <h3 class="text-lg font-semibold mb-1">Sales Tracker Dashboard</h3>
+          <p class="text-sm text-gray-300 mb-3">Track regional sales, profit, and trends using Excel-based dashboards and filters.</p>
+          <div class="flex flex-wrap gap-2 mb-3">
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Excel</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Pivot Tables</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Charts</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Dashboard</span>
+          </div>
+        </div>
+        <div class="flex gap-3">
+          <a href="https://www.linkedin.com/posts/giteshgunjal_exceldashboard-salestracker-datavisualization-activity-7329161681555664899--p-0?utm_source=share&utm_medium=member_desktop&rcm=ACoAADbMJg4BIGje64Qmen7iCdyI1h1Q9paHixo" target="_blank" class="btn-hover flex items-center gap-1 bg-purple-600 hover:bg-purple-700 text-white px-4 py-1 rounded-full text-sm">
+          <i class="fas fa-eye"></i> <img src= "https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" alt="Linkdin" class="w-7 h-7"> LinkedIn
+          </a>
+          <a href="https://github.com/GiteshGunjal1/Sales_Tracker-Excel" target="_blank"
+            class="btn-hover flex items-center gap-1 border border-purple-600 hover:bg-purple-700 hover:text-white text-purple-400 px-4 py-1 rounded-full text-sm">
+            <i class="fas fa-code"></i> 🔗 Code
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Excel Project Card 2 -->
+    <div class="bg-[#1a1a1a] text-white rounded-xl card-hover group w-72" data-aos="zoom-in" data-aos-delay="300">
+      <img src="assets/Krishna_Store_Analysis.png" alt="Krishna Store Excel Dashboard"
+          class="rounded-t-xl w-full h-[160px] object-cover border-b-4 border-purple-500 image-hover-zoom">
+      <div class="p-4 flex flex-col justify-between h-[270px]">
+        <div>
+          <h3 class="text-lg font-semibold mb-1">Krishna Store Annual Report</h3>
+          <p class="text-sm text-gray-300 mb-3">Analyze yearly sales, customer trends, top states, and order channels in retail.</p>
+          <div class="flex flex-wrap gap-2 mb-3">
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Excel</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Retail Analysis</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Dashboard</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Sales</span>
+          </div>
+        </div>
+        <div class="flex gap-3">
+          <a href="https://www.linkedin.com/posts/giteshgunjal_excel-dataanalysis-retailanalytics-activity-7321073028610580480-MNHm?utm_source=share&utm_medium=member_desktop&rcm=ACoAADbMJg4BIGje64Qmen7iCdyI1h1Q9paHixo" target="_blank" class="btn-hover flex items-center gap-1 bg-purple-600 hover:bg-purple-700 text-white px-4 py-1 rounded-full text-sm">
+          <i class="fas fa-eye"></i> <img src= "https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" alt="Linkdin" class="w-7 h-7"> LinkedIn
+          </a>
+          <a href="https://github.com/GiteshGunjal1/Krishna_Store_Analysis-Excel" target="_blank"
+            class="btn-hover flex items-center gap-1 border border-purple-600 hover:bg-purple-700 hover:text-white text-purple-400 px-4 py-1 rounded-full text-sm">
+            <i class="fas fa-code"></i> 🔗 Code
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Excel Project Card 3 -->
+    <div class="bg-[#1a1a1a] text-white rounded-xl card-hover group w-72" data-aos="zoom-in" data-aos-delay="400">
+      <img src="assets/Coffee_Sales.png" alt="Coffee Sales Dashboard"
+          class="rounded-t-xl w-full h-[160px] object-cover border-b-4 border-purple-500 image-hover-zoom">
+      <div class="p-4 flex flex-col justify-between h-[270px]">
+        <div>
+          <h3 class="text-lg font-semibold mb-1">Coffee Sales Dashboard</h3>
+          <p class="text-sm text-gray-300 mb-3">Interactive Excel report showing coffee sales by country, roast type, and customer segment.</p>
+          <div class="flex flex-wrap gap-2 mb-3">
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Excel</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Dashboard</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Sales Analysis</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Coffee Trends</span>
+          </div>
+        </div>
+        <div class="flex gap-3">
+          <a href="https://github.com/GiteshGunjal1/Coffee_Sales_Analysis-Excel" target="_blank"
+            class="btn-hover flex items-center gap-1 border border-purple-600 hover:bg-purple-700 hover:text-white text-purple-400 px-4 py-1 rounded-full text-sm">
+            <i class="fas fa-code"></i> 🔗 Code
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    
+  </section>
+
+  <!-- Tableau Section -->
+   <!-- Tableau_Img= https://img.icons8.com/?size=100&id=9Kvi1p1F0tUo&format=png&color=000000 -->
+  <section class="px-6 md:px-20 py-16">
+    <div class="flex items-center justify-center gap-4 mb-10" data-aos="fade-down">
+    <img src="https://img.icons8.com/?size=100&id=9Kvi1p1F0tUo&format=png&color=000000" alt="Tableau" class="w-11 h-11">
+    <h2 class="text-3xl font-bold text-purple-400" data-aos="fade-down">Tableau Projects</h2>
+    </div>
+    <div class="flex flex-wrap justify-center gap-6">
+    <!-- 📝 Add Tableau Project Cards here -->
+    
+    <!-- Tableau Project Card 1 -->
+    <div class="bg-[#1a1a1a] text-white rounded-xl card-hover group w-72" data-aos="zoom-in" data-aos-delay="200">
+      <img src="assets/Accident_Analysis.png" alt="Road Accident Analysis Dashboard"
+          class="rounded-t-xl w-full h-[160px] object-cover border-b-4 border-purple-500 image-hover-zoom">
+      <div class="p-4 flex flex-col justify-between h-[270px]">
+        <div>
+          <h3 class="text-lg font-semibold mb-1">Road Accident Analysis</h3>
+          <p class="text-sm text-gray-300 mb-3">Explore UK accident data by vehicle, weather, location, and road conditions using Tableau.</p>
+          <div class="flex flex-wrap gap-2 mb-3">
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Tableau</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Data Viz</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Geospatial</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Accident Stats</span>
+          </div>
+        </div>
+        <div class="flex gap-3">
+          <a href="https://github.com/GiteshGunjal1/Road_Accident_Analysis-Tableau" target="_blank"
+            class="btn-hover flex items-center gap-1 border border-purple-600 hover:bg-purple-700 hover:text-white text-purple-400 px-4 py-1 rounded-full text-sm">
+            <i class="fas fa-code"></i> 🔗 Code
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Tableau Project Card 2 -->
+    <div class="bg-[#1a1a1a] text-white rounded-xl card-hover group w-72" data-aos="zoom-in" data-aos-delay="300">
+      <img src="assets/Sales_Dashboard.png" alt="Sales Dashboard Tableau"
+          class="rounded-t-xl w-full h-[160px] object-cover border-b-4 border-purple-500 image-hover-zoom">
+      <div class="p-4 flex flex-col justify-between h-[270px]">
+        <div>
+          <h3 class="text-lg font-semibold mb-1">Sales Dashboard 2023</h3>
+          <p class="text-sm text-gray-300 mb-3">Compare sales and profit across years and categories using interactive Tableau visuals.</p>
+          <div class="flex flex-wrap gap-2 mb-3">
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Tableau</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Sales Trends</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Profit Analysis</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Category Breakdown</span>
+          </div>
+        </div>
+        <div class="flex gap-3">
+          <a href="https://github.com/GiteshGunjal1/Sales_Dashboard-Tablaeu" target="_blank"
+            class="btn-hover flex items-center gap-1 border border-purple-600 hover:bg-purple-700 hover:text-white text-purple-400 px-4 py-1 rounded-full text-sm">
+            <i class="fas fa-code"></i> 🔗 Code
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Tableau Project Card 3 -->
+    <div class="bg-[#1a1a1a] text-white rounded-xl card-hover group w-72" data-aos="zoom-in" data-aos-delay="400">
+      <img src="assets/Regional_Sales_Profit.png" alt="Tableau Regional Sales Dashboard"
+          class="rounded-t-xl w-full h-[160px] object-cover border-b-4 border-purple-500 image-hover-zoom">
+      <div class="p-4 flex flex-col justify-between h-[270px]">
+        <div>
+          <h3 class="text-lg font-semibold mb-1">Regional Sales & Profit Tracker</h3>
+          <p class="text-sm text-gray-300 mb-3">Monitor regional sales, daily trends, profit and order details using Tableau visuals.</p>
+          <div class="flex flex-wrap gap-2 mb-3">
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Tableau</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Profit Tracker</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Sales Dashboard</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Order Insights</span>
+          </div>
+        </div>
+        <div class="flex gap-3">
+          <a href="https://github.com/GiteshGunjal1/Sales_Dashboard_2015-2018-Tableau" target="_blank"
+            class="btn-hover flex items-center gap-1 border border-purple-600 hover:bg-purple-700 hover:text-white text-purple-400 px-4 py-1 rounded-full text-sm">
+            <i class="fas fa-code"></i> 🔗 Code
+          </a>
+        </div>
+      </div>
+    </div>
+
+  
+    </div>  
+    
+
+    
+  </section>
+
+  <!-- MySQL Section -->
+  <!-- MySql_Img = https://img.icons8.com/?size=100&id=rgPSE6nAB766&format=png&color=000000 -->
+  <section class="px-6 md:px-20 py-16">
+    <div class="flex items-center justify-center gap-4 mb-10" data-aos="fade-down">
+    <img src="https://img.icons8.com/?size=100&id=rgPSE6nAB766&format=png&color=000000" alt="Tableau" class="w-11 h-11">
+    <h2 class="text-3xl font-bold text-purple-400" data-aos="fade-down">MySQL Projects</h2>
+    </div>
+    <div class="flex flex-wrap justify-center gap-6">
+    <!-- 📝 Add MySQL Project Cards here -->
+      
+    <!-- MySQL Project Card 1 -->
+    <div class="bg-[#1a1a1a] text-white rounded-xl card-hover group w-72" data-aos="zoom-in" data-aos-delay="200">
+      <img src="assets/Election_Result.png" alt="MySQL Database Project"
+          class="rounded-t-xl w-full h-[160px] object-cover border-b-4 border-purple-500 image-hover-zoom">
+      <div class="p-4 flex flex-col justify-between h-[270px]">
+        <div>
+          <h3 class="text-lg font-semibold mb-1">Sales Database Analysis</h3>
+          <p class="text-sm text-gray-300 mb-3">Built a structured MySQL database using multiple tables, complex joins, subqueries, and views to analyze regional sales and customer patterns.</p>
+          <div class="flex flex-wrap gap-2 mb-3">
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#MySQL</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Joins</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Subqueries</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Views</span>
+          </div>
+        </div>
+        <div class="flex gap-3">
+          <a href="https://www.linkedin.com/posts/giteshgunjal_election-result-analysis-activity-7328427067329429504-VjHJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADbMJg4BIGje64Qmen7iCdyI1h1Q9paHixo" target="_blank" class="btn-hover flex items-center gap-1 bg-purple-600 hover:bg-purple-700 text-white px-4 py-1 rounded-full text-sm">
+          <i class="fas fa-eye"></i> <img src= "https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" alt="Linkdin" class="w-7 h-7"> LinkedIn
+          </a>
+          <a href="https://github.com/GiteshGunjal1/Election_Result_Analysis-Sql" target="_blank"
+            class="btn-hover flex items-center gap-1 border border-purple-600 hover:bg-purple-700 hover:text-white text-purple-400 px-4 py-1 rounded-full text-sm">
+            <i class="fas fa-code"></i> 🔗 Code
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- MySQL Project Card 2 -->
+    <div class="bg-[#1a1a1a] text-white rounded-xl card-hover group w-72" data-aos="zoom-in" data-aos-delay="300">
+      <img src="assets/Hospital_Data.png" alt="MySQL Database Project"
+          class="rounded-t-xl w-full h-[160px] object-cover border-b-4 border-purple-500 image-hover-zoom">
+      <div class="p-4 flex flex-col justify-between h-[270px]">
+        <div>
+          <h3 class="text-lg font-semibold mb-1">Sales Database Analysis</h3>
+          <p class="text-sm text-gray-300 mb-3">Analyzed hospital operations and patient records using MySQL. The project involved multiple tables such as Patients, Doctors, Treatments and Billing.</p>
+          <div class="flex flex-wrap gap-2 mb-3">
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#MySQL</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Joins</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Subqueries</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Views</span>
+          </div>
+        </div>
+        <div class="flex gap-3">
+          <a href="https://www.linkedin.com/posts/giteshgunjal_hospital-data-analysis-activity-7322319255729790976-2NJa?utm_source=share&utm_medium=member_desktop&rcm=ACoAADbMJg4BIGje64Qmen7iCdyI1h1Q9paHixo" target="_blank" class="btn-hover flex items-center gap-1 bg-purple-600 hover:bg-purple-700 text-white px-4 py-1 rounded-full text-sm">
+          <i class="fas fa-eye"></i> <img src= "https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" alt="Linkdin" class="w-7 h-7"> LinkedIn
+          </a>
+          <a href="https://github.com/GiteshGunjal1/Hospital_Data_Analysis-Sql" target="_blank"
+            class="btn-hover flex items-center gap-1 border border-purple-600 hover:bg-purple-700 hover:text-white text-purple-400 px-4 py-1 rounded-full text-sm">
+            <i class="fas fa-code"></i> 🔗 Code
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- MySQL Project Card 3 -->
+    <div class="bg-[#1a1a1a] text-white rounded-xl card-hover group w-72" data-aos="zoom-in" data-aos-delay="400">
+      <img src="assets/Retail_Sales.png" alt="MySQL Database Project"
+          class="rounded-t-xl w-full h-[160px] object-cover border-b-4 border-purple-500 image-hover-zoom">
+      <div class="p-4 flex flex-col justify-between h-[270px]">
+        <div>
+          <h3 class="text-lg font-semibold mb-1">Sales Database Analysis</h3>
+          <p class="text-sm text-gray-300 mb-3">Performed detailed analysis of retail sales data using MySQL. The project focused on multiple interconnected tables such as Orders, Customers, Products, Regions and Payments.</p>
+          <div class="flex flex-wrap gap-2 mb-3">
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#MySQL</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Joins</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Subqueries</span>
+            <span class="border border-purple-500 text-purple-400 px-2 py-1 rounded text-xs">#Views</span>
+          </div>
+        </div>
+        <div class="flex gap-3">
+          <a href="https://github.com/GiteshGunjal1/Retail_Sales-Sql" target="_blank"
+            class="btn-hover flex items-center gap-1 border border-purple-600 hover:bg-purple-700 hover:text-white text-purple-400 px-4 py-1 rounded-full text-sm">
+            <i class="fas fa-code"></i> 🔗 Code
+          </a>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+
+  <!-- AOS Initialization -->
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
